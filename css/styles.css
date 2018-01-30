@@ -1,0 +1,30 @@
+/* Font */
+body, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poiret One', cursive;
+}
+
+/*Buttons */
+.p-button--brand,
+.p-button--brand:link,
+.p-button--brand:visited {
+  background-color: #C5B358;
+  border-color: #C5B358;
+  color: #000;
+  width: auto;
+  margin-top: 1rem;
+}
+
+.p-button--brand:hover {
+  background-color: #B0A04F;
+  border-color: #B0A04F;
+}
+
+/*Main content */
+#main-content {
+  flex-direction: column;
+  justify-content: center;
+}
